@@ -18,6 +18,7 @@ public class Calculator {
             }
         }
 
+
         //Если не нашли арифметического действия, завершаем программу
         if(actionIndex==-1){
             System.out.println("Некорректное выражение");
