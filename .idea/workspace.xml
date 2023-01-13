@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f208358-2e37-4b9a-8311-c6f01d09d73b" name="Changes" comment="Финальная версия">
+    <list default="true" id="0f208358-2e37-4b9a-8311-c6f01d09d73b" name="Changes" comment="выполненно исключение по размеру чисел">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +98,19 @@
       <option name="project" value="LOCAL" />
       <updated>1673385458564</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="выполненно исключение по размеру чисел">
+      <created>1673624941843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624941843</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Финальная версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Финальная версия" />
+    <MESSAGE value="выполненно исключение по размеру чисел" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполненно исключение по размеру чисел" />
   </component>
 </project>

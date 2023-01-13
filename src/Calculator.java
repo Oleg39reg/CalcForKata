@@ -18,16 +18,27 @@ public class Calculator {
                 actionIndex = i;
                 break;
             }
-
         }
+//        Проверяем число операндов
+        String action = new String();
+        int couter = 0;
 
+        for (char i : exp.toCharArray()) {
+            if (i == '+' || i == '-' || i == '+' || i == '/') {
+                couter++;
+                action = "\\" + i;
+            }
+        }
+        if (couter != 1) {
+            System.out.println("Ошибка!Выражение записано неверно, должно быть 2 операнда и 1 оператор(+,-,/,*)");
+            return;
+        }
 
         //Если не нашли арифметического действия, завершаем программу
         if (actionIndex == -1) {
             System.out.println("Некорректное выражение");
             return;
         }
-
 
 
         //Делим строчку по найденному арифметическому знаку
@@ -50,14 +61,17 @@ public class Calculator {
                 a = Integer.parseInt(data[0]);
                 b = Integer.parseInt(data[1]);
             }
+
+
             //Ошибка если число меньше 1
-            if ((a|b) < 1) {
+            if ((a | b) < 1) {
                 System.out.println("ошибка, число не может быть меньше 1");
                 return;
-            } else if ((a|b)>10){
+            } else if ((a | b) > 10) {
                 System.out.println("Ошибка, число не может быть больше 10");
                 return;
             }
+
             //выполняем с числами арифметическое действие
             int result;
             switch (actions[actionIndex]) {
@@ -88,8 +102,5 @@ public class Calculator {
 
 
     }
-}
 
-// if (exp <1 | >10) {
-//        System.out.println("Ошибка");
-//        }
+}
